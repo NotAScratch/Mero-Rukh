@@ -19,7 +19,7 @@ public class MeroRukhModel {
     String Shape;
     
 
-    public MeroRukhModel(int[] sNo, String[] tree_name, String[] scientific_name, int[] height, int[] width, String[] origin, int[] age, String[] Shape) {
+    public MeroRukhModel(int sNo, String tree_name, String scientific_name, int height, int width, String origin, int age, String Shape) {
         this.sNo = sNo;
         this.tree_name = tree_name;
         this.scientific_name = scientific_name;
@@ -30,35 +30,35 @@ public class MeroRukhModel {
         this.Shape = Shape;
     }
 
-    public int[] getsNo() {
+    public int getsNo() {
         return sNo;
     }
 
-    public void setsNo(int[] sNo) {
+    public void setsNo(int sNo) {
         this.sNo = sNo;
     }
 
-    public String[] getTree_name() {
+    public String getTree_name() {
         return tree_name;
     }
 
-    public void setTree_name(String[] tree_name) {
+    public void setTree_name(String tree_name) {
         this.tree_name = tree_name;
     }
 
-    public String[] getScientific_name() {
+    public String getScientific_name() {
         return scientific_name;
     }
 
-    public void setScientific_name(String[] scientific_name) {
+    public void setScientific_name(String scientific_name) {
         this.scientific_name = scientific_name;
     }
 
-    public int[] getHeight() {
+    public int getHeight() {
         return height;
     }
 
-    public void setHeight(int[] height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 
