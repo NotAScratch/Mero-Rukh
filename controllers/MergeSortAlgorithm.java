@@ -14,14 +14,14 @@ import java.util.ArrayList;
 public class MergeSortAlgorithm {
 
     public MeroRukhModel MergeSortAlgorithm(MeroRukhModel model) {
-        int[] serial_no = model.getsNo();
-        String[] name = model.getTree_name();
-        String[] scientific_name = model.getScientific_name();
-        int[] height = model.getHeight();
-        int[] width = model.getWidth();
-        String[] origin = model.getOrigin();
-        int[] age = model.getAge();
-        String[] shape = model.getShape();
+        int serial_no = model.getsNo();
+        String name = model.getTree_name();
+        String scientific_name = model.getScientific_name();
+        int height = model.getHeight();
+        int width = model.getWidth();
+        String origin = model.getOrigin();
+        int age = model.getAge();
+        String shape = model.getShape();
 
 //        ArrayList<Object> list_sort = new ArrayList<>();
 //        list_sort.add(serial_no);
