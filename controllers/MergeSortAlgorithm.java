@@ -23,20 +23,6 @@ public class MergeSortAlgorithm {
         int age = model.getAge();
         String shape = model.getShape();
 
-//        ArrayList<Object> list_sort = new ArrayList<>();
-//        list_sort.add(serial_no);
-//        list_sort.add(name);
-//        list_sort.add(scientific_name);
-//        list_sort.add(height);
-//        list_sort.add(width);
-//        list_sort.add(origin);
-//        list_sort.add(age);
-//        list_sort.add(shape);
-//        
-//        return new MeroRukhModel(serial_no, name,scientific_name, height,
-//                width, origin, age, shape);
-//        
-//        
         return null;
     }
 
@@ -47,9 +33,9 @@ public class MergeSortAlgorithm {
 
         int input_length = name.length;
 
-        int[] serialno_lefthalf = new int[input_length / 2];
-        String[] name_lefthalf = new String[input_length / 2];
-        int[] height_lefthalf = new int[input_length / 2];
+        int serialno_lefthalf = new int[input_length / 2];
+        String name_lefthalf = new String[input_length / 2];
+        int height_lefthalf = new int[input_length / 2];
 
         int[] serialno_righthalf = new int[input_length - serialno_lefthalf.length];
         String[] name_righthalf = new String[input_length - name_lefthalf.length];
