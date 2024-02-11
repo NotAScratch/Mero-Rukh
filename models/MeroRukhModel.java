@@ -62,35 +62,35 @@ public class MeroRukhModel {
         this.height = height;
     }
 
-    public int[] getWidth() {
+    public int getWidth() {
         return width;
     }
 
-    public void setWeidth(int[] weidth) {
+    public void setWeidth(int weidth) {
         this.width = weidth;
     }
 
-    public String[] getOrigin() {
+    public String getOrigin() {
         return origin;
     }
 
-    public void setOrigin(String[] origin) {
+    public void setOrigin(String origin) {
         this.origin = origin;
     }
 
-    public int[] getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(int[] age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public String[] getShape() {
+    public String getShape() {
         return Shape;
     }
 
-    public void setShape(String[] Shape) {
+    public void setShape(String Shape) {
         this.Shape = Shape;
     }
     
