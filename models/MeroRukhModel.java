@@ -9,14 +9,14 @@ package com.merorukh.models;
  * @author SamirDON
  */
 public class MeroRukhModel {
-    int[] sNo;
-    String[] tree_name;
-    String[] scientific_name;
-    int[] height;
-    int[] width;
-    String [] origin;
-    int[] age;
-    String[] Shape;
+    int sNo;
+    String tree_name;
+    String scientific_name;
+    int height;
+    int width;
+    String origin;
+    int age;
+    String Shape;
     
 
     public MeroRukhModel(int[] sNo, String[] tree_name, String[] scientific_name, int[] height, int[] width, String[] origin, int[] age, String[] Shape) {
